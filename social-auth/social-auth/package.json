@@ -1,0 +1,36 @@
+{
+  "name": "social-auth",
+  "version": "1.0.0",
+  "description": "## social-auth",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Timothy S. McKenna <mckenna.tim@gmail.com>",
+  "license": "Timothy S. McKenna <mckenna.tim@gmail.com>",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.19.0",
+    "connect-flash": "~0.1.1",
+    "cookie-parser": "~1.4.4",
+    "cookie-session": "^2.0.0-beta.3",
+    "ejs": "3.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "^5.9.0",
+    "morgan": "^1.9.1",
+    "nodemailer": "6.4.2",
+    "passport": "0.4.1",
+    "passport-facebook": "3.0.0",
+    "passport-github": "^1.1.0",
+    "passport-google-oauth": "2.0.0",
+    "passport-twitter": "~1.0.4",
+    "superagent": "^5.2.1",
+    "tracer": "1.0.2"
+  }
+}
